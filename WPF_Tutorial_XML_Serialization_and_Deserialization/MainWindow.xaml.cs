@@ -38,6 +38,7 @@ namespace WPF_Tutorial_XML_Serialization_and_Deserialization {
             MyDataGrid.ItemsSource = dataView;
             */
 
+
             //https://stackoverflow.com/questions/27179373/xml-binding-to-datagrid-in-wpf
             //Modifierade Table[0] till Tables[1] vilket gör att flera "employee" i en "employeList" kan visas.
             //Varning: Kan nog inte användas för labben då ICollection måste användas? Kanske om kan göra om och lägga in i ICollection istället för DataSet/DataGrid?
